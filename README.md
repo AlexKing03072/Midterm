@@ -10,13 +10,18 @@
 - 提供命令列介面 (CLI) 查詢書籍，支持書名或作者模糊搜尋。
 
 專案架構：
-
 project/
-├── app.py      # 主程式，CLI 入口
-├── scraper.py  # 爬蟲功能
-├── database.py # SQLite 資料庫操作
-├── books.db    # SQLite 資料庫 (程式執行後生成)
-└── requirements.txt
+
+├── app.py
+
+├── scraper.py           
+├── database.py          
+├── books.db            
+├── requirements.txt     
+└── .gitignore           
+
+
+
 
 ## 功能說明
 
