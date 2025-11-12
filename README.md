@@ -12,12 +12,11 @@
 專案架構：
 
 project/
-│
-├─ app.py # 主程式，CLI 入口
-├─ scraper.py # 爬蟲功能
-├─ database.py # SQLite 資料庫操作
-├─ books.db # SQLite 資料庫（程式執行後生成）
-└─ requirements.txt
+├── app.py      # 主程式，CLI 入口
+├── scraper.py  # 爬蟲功能
+├── database.py # SQLite 資料庫操作
+├── books.db    # SQLite 資料庫 (程式執行後生成)
+└── requirements.txt
 
 ## 功能說明
 
