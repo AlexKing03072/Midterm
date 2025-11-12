@@ -80,6 +80,7 @@ def query_by_title(keyword: str, db_path: str = DB_FILENAME) -> List[Dict]:
     kw = f"%{keyword}%"
     return _query("SELECT * FROM llm_books WHERE title LIKE ? ORDER BY id", (kw,), db_path)
 
+
 def query_by_author(keyword: str, db_path: str = DB_FILENAME) -> List[Dict]:
     kw = f"%{keyword}%"
     return _query("SELECT * FROM llm_books WHERE author LIKE ? ORDER BY id", (kw,), db_path)

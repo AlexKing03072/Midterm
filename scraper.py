@@ -11,9 +11,12 @@ from selenium.common.exceptions import (
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.chrome.options import Options # 使用 chrome 瀏覽器
 from webdriver_manager.chrome import ChromeDriverManager
+
+# --- 標準函式庫導入 (Standard Library Imports) ---
 from typing import List, Dict # type hint
 import re
 import time
+
 
 def scrape_books() -> List[Dict]:
     """
@@ -186,4 +189,3 @@ def scrape_books() -> List[Dict]:
         driver.quit()
 
     return books
-

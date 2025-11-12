@@ -3,6 +3,7 @@ import sys
 from scraper import scrape_books
 from database import init_db, insert_books, query_by_title, query_by_author
 
+
 def print_book_row(b):
     # 格式化印出單筆書籍
     print(f"書名：{b['title']}")
